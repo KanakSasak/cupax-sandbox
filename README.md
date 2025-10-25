@@ -38,7 +38,7 @@ This reveals the malware's **true behavior** - even if it's never been seen befo
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        YOUR WORKFLOW                             │
+│                        YOUR WORKFLOW                            │
 └─────────────────────────────────────────────────────────────────┘
 
     1. Upload File              2. Detonation              3. Results
@@ -69,7 +69,7 @@ CupaX uses a **client-server architecture** with three components:
 ```
 ┌──────────────────┐         ┌─────────────────┐         ┌──────────────────┐
 │   Web Browser    │  HTTP   │  Backend Server │  HTTP   │   Windows VM     │
-│                  │◀───────>│                 │◀───────>│                  │
+│                  │◀──────>│                  │◀──────>│                  │
 │  - Upload files  │         │  - Go Server    │         │  - Python Agent  │
 │  - View reports  │         │  - SQLite DB    │         │  - Noriben       │
 │  - Manage lists  │         │  - API + UI     │         │  - Procmon       │
